@@ -1,0 +1,15 @@
+body {
+    background-color: #25333C;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: white;
+    padding: 1%;
+}
