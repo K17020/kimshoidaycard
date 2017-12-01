@@ -1,16 +1,23 @@
-body {
+html, body {
     background-color: #25333C;
+    height: 100%;
+    border: 1px solid orange;
+
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid orange;
+    height: 85%
 }
 
-.h1 {
+.holiday-text {
     font-family: 'Mountains of Christmas', cursive;
     color: white;
-    padding: 1%;
     font-size: 7vmax;
+}
+.img-control{
+  height: 75%;
 }
