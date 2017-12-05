@@ -10,7 +10,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     height: 100%;
 }
 
@@ -18,7 +18,9 @@ html, body {
 .holiday-text {
     font-family: 'Mountains of Christmas', cursive;
     color: white;
-    font-size: 6vmax;
+    font-size: 5.5vmax;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: thin;
 }
 
 /* This scales the background image*/
