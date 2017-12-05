@@ -1,23 +1,36 @@
+/*required to make images centered*/
 html, body {
-    background-color: #25333C;
     height: 100%;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 
 }
 
+/*centers content to the middle of the page*/
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid orange;
-    height: 85%
+    height: 100%;
 }
 
+/*This scales the hoiday text*/
 .holiday-text {
     font-family: 'Mountains of Christmas', cursive;
     color: white;
-    font-size: 7vmax;
+    font-size: 6vmax;
 }
-.img-control{
-  height: 75%;
+
+/* This scales the background image*/
+.bg {
+    /* The image used */
+    background-image: url("media/images/chrismas_background.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
