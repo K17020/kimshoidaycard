@@ -18,7 +18,7 @@ html, body {
 .holiday-text {
     font-family: 'Mountains of Christmas', cursive;
     color: white;
-    font-size: 5.5vmax;
+    font-size: 6vmax;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: thin;
 }
@@ -35,4 +35,8 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.img-outline{
+    border: 10px solid white;
 }
